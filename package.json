@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:mask-secret.helloWorld"
+        "onCommand:mask-secret.maskSecret"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "mask-secret.helloWorld",
-				"title": "Hello World"
+				"command": "mask-secret.maskSecret",
+				"title": "Mask secret"
 			}
 		]
 	},
